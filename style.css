@@ -1,0 +1,68 @@
+*{
+    margin:10px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(white,silver,gray,darkgray);
+}
+#container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin: 5px;
+    padding: 5px;
+    gap: 20px;
+}
+.card{
+    padding:20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0,0,0.15)0px 5px 9px;
+}
+
+.card h2{
+    color:black;
+    font-size:40px;
+}
+
+.card h3{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card p{
+    border:2px solid black;
+    color:navy;
+    padding:5px;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.card p:hover{
+    background-color: navy;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.card:hover{
+    transform:translate(-12px) scale(1.03);
+    box-shadow: 0 15px 20px rgb(189,160,81);
+    background-color: rgb(154,122,154);
+}
+
+h1{
+    border:1px solid black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rgba(0,0,0.56)3px 5px 8px;
+    border-radius: 10px;
+    font-weight: 200px;
+}
+
+h1:hover{
+    background:linear-gradient(rgb(154, 122, 154),rgb(189, 160, 81));
+    transform:translateY(-12px) scale(1.03);
+    color: aqua;
+}
